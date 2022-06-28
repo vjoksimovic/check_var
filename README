@@ -1,0 +1,4 @@
+Jos jedan nacin da se izvrsi zadatak je:
+diff <( grep -o -E ‘\w+=’ test.txt| sed ‘s/.$//‘) <(grep -o -E ‘\$\w+’ test.txt | sed ‘s/^.//’)
+
+
